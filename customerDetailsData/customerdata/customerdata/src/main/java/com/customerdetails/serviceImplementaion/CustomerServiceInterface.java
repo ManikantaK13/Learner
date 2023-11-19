@@ -1,10 +1,9 @@
-package com.customerdetails.serviceInterface;
+package com.customerdetails.serviceImplementaion;
 
 import com.customerdetails.customerdata.customer.CustomerBean;
 
 public interface CustomerServiceInterface {
 
-	 public void createNewCustomer(CustomerBean customer);
-	
-	
+	CustomerBean createNewCustomer(CustomerBean customer);
+
 }

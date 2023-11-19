@@ -6,4 +6,5 @@ import com.customerdetails.customerdata.customer.CustomerBean;
 
 public interface CustomerRepository extends JpaRepository<CustomerBean,Integer> {
 
+	public CustomerBean createNewCustomer(CustomerBean customer);
 }
